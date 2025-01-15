@@ -10,9 +10,9 @@ Band-S introduces a hidden transmit queue for Ethernet-based automotive networks
 ![image - 2024-03-18T144521 426](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/909cf771-f3a1-40eb-9133-d07a1774a11f)
 
 ## Step 0: Build Kernel Image.
-Kernel image with a special DDoS attack prevention method called Band-S in the following link:
+Download Kernel image with a special DDoS attack prevention method called Band-S in the following link:
 
-- [Kernel image for Band-S](https://github.com/AveesLab/linux-tegra-5.10_s/blob/oe4t-patches-l4t-r35.1/README.md)<br><br>
+- [Kernel image for Band-S](https://drive.google.com/file/d/17Vl1ioiYpwLqrPkZHlYN3G_411WA5r_Z/view?usp=sharing)<br><br>
 
 ```bash
 cd ~
@@ -24,6 +24,27 @@ cd jetson-linux-build
 ./makeModules.sh
 ./copyImage.sh
 ```
+
+---
+Linux kernel
+---
+
+There are several guides for kernel developers and users. These guides can
+be rendered in a number of formats, like HTML and PDF. Please read
+Documentation/admin-guide/README.rst first.
+
+In order to build the documentation, use ``make htmldocs`` or
+``make pdfdocs``.  The formatted documentation can also be read online at:
+
+    https://www.kernel.org/doc/html/latest/
+
+There are various text files in the Documentation/ subdirectory,
+several of them using the Restructured Text markup notation.
+
+Please read the Documentation/process/changes.rst file, as it contains the
+requirements for building and running the kernel, and information about
+the problems which may result by upgrading your kernel.
+
 
 ## Step 1: Make sure you have installed git and cmake
 ```bash
