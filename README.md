@@ -42,7 +42,7 @@ several of them using the Restructured Text markup notation.
 
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+the problems which may result by upgrading your kernel.<br>
 
 
 ## Step 1: Make sure you have installed git and cmake
