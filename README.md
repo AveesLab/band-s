@@ -13,7 +13,7 @@ Band-S introduces a hidden transmit queue for Ethernet-based automotive networks
 Download Kernel image with a special DDoS attack prevention method called Band-S in the following link:
 
 - [Kernel image for Band-S](https://drive.google.com/file/d/17Vl1ioiYpwLqrPkZHlYN3G_411WA5r_Z/view?usp=sharing)<br><br>
-Make jetson-linux-build and Download Kernel image and follow bellowing commands
+Make jetson-linux-build directory and Download Kernel image and follow bellowing commands
 
 
 ```bash
