@@ -25,7 +25,7 @@ cd jetson-linux-build
 ```
 
 ---
-Linux kernel
+Linux kernel Guide
 ---
 
 There are several guides for kernel developers and users. These guides can
