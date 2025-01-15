@@ -10,10 +10,20 @@ Band-S introduces a hidden transmit queue for Ethernet-based automotive networks
 ![image - 2024-03-18T144521 426](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/909cf771-f3a1-40eb-9133-d07a1774a11f)
 
 ## Step 0: Build Kernel Image.
-
 Kernel image with a special DDoS attack prevention method called Band-S in the following link:
 
 - [Kernel image for Band-S](https://github.com/AveesLab/linux-tegra-5.10_s/blob/oe4t-patches-l4t-r35.1/README.md)<br><br>
+
+```bash
+cd ~
+git clone https://github.com/AveesLab/kernel_5.10S.git
+cd ~
+git clone https://github.com/jetsonhacks/jetson-linux-build.git
+cd jetson-linux-build
+./makeKernel.sh
+./makeModules.sh
+./copyImage.sh
+```
 
 ## Step 1: Make sure you have installed git and cmake
 ```bash
